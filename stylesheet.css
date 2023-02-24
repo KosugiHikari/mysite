@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ec715f;
+  height: 70px;
+}
+
+.header-list {
+  width: 1024px;
+}
+
+.header-logo {
+  height: 70px;
+  position: absolute;
+  left: 0;
+}
+
+header a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.list {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style:none;
+}
+
+.list-item {
+  padding: 0 30px;
+  line-height: 70px;
+}
+
+
+.main-top {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: bottom;
+  color: #fafafa;
+  text-align: center;
+}
+
+.main-top h1 {
+  font-size: 64px;
+  padding: 200px 0 10px 0;
+}
+
+.main-top p {
+  font-size: 20px;
+}
+
+
+.portfolio {
+  background-color: #eceff1;
+  text-align: center;
+}
+
