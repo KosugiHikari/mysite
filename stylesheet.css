@@ -7,6 +7,8 @@
 header {
   background-color: #ec715f;
   height: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-list {
@@ -16,7 +18,7 @@ header {
 .header-logo {
   height: 70px;
   position: absolute;
-  left: 0;
+  float:left;
 }
 
 header a {
@@ -26,8 +28,6 @@ header a {
 }
 
 .list {
-  position: absolute;
-  right: 0;
   display: flex;
   justify-content: flex-end;
   list-style:none;
@@ -57,10 +57,18 @@ header a {
   font-size: 20px;
 }
 
-
-.portfolio {
+.port-top,
+.feature-top,
+.prof-top,
+.cont-top {
   text-align: center;
+}
+
+
+.portfolio,
+.profile {
   padding: 90px 0;
+  background-color: #eceff1;
 }
 
 .portfolio h1 {
@@ -74,10 +82,12 @@ hr {
   width: 70px;
   background-color: #ec715f;
   display: inline-block;
-  justify-content: center;
 }
 
-.port-text {
+.port-text,
+.feat-text,
+.prof-text,
+.cont-text {
   padding: 30px 0;
 }
 
@@ -93,7 +103,7 @@ hr {
   width: 920px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin :0 auto;
 }
 
 .port-box:nth-child(3n) {
@@ -129,6 +139,111 @@ hr {
 }
 
 
+.feature {
+  padding: 90px 0;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feat-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Strength1,
+.Strength2,
+.Strength3 {
+  width: 320px;
+  height: auto;
+}
+
+.Strength2 {
+  margin: 0 10px;
+}
+
+i {
+  font-size: 60px;
+}
+
+.Strength1-top,
+.Strength2-top,
+.Strength3-top {
+  text-align: center;
+}
+
+.Strength1-top h2,
+.Strength2-top h2,
+.Strength3-top h2 {
+  padding: 10px 0;
+}
+
+.prof-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-contents {
+  width: 512px;
+  text-align: center;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.prof {
+  width: 512px;
+}
+
+.name {
+  padding-bottom: 20px;
+}
+
+.name h2,
+.skill h2 {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+
+.contact {
+  width: 800px;
+  padding: 90px 0;
+  margin: auto;
+}
+
+.cont-contents {
+	display: flex;
+  text-align: center;
+}
+
+.add,
+.sns {
+  width: 400px;
+}
+
+.mail h2,
+.tel h2,
+.sns h2 {
+  padding-top: 5px;
+}
+
+.mail p {
+  padding-bottom: 20px;
+}
+
+.sns-icon i {
+  font-size: 50px;
+}
+
+.fa-brands {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 footer {
   height: 60px;
