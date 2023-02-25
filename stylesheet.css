@@ -64,6 +64,9 @@ header a {
   text-align: center;
 }
 
+.portfolio {
+  width: 920px;
+}
 
 .portfolio,
 .profile {
@@ -178,6 +181,11 @@ i {
   padding: 10px 0;
 }
 
+
+.profile {
+  width: 1024px;
+}
+
 .prof-contents {
   display: flex;
   justify-content: center;
@@ -252,4 +260,32 @@ footer {
   font-size: 16px;
   line-height: 60px;
   text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+  .main-top {
+    background-image: url(img/code.png);
+  }
+  
+  .portfolio {
+    width: 100%;
+  }
+  
+  .port-contents {
+    display: block;
+  }
+  
+  .feature {
+    width: 90%;
+  }
+  
+  .profile {
+    width: 100%;
+  }
+  
+  .contact {
+    width: 90%;
+  }
+  
 }
